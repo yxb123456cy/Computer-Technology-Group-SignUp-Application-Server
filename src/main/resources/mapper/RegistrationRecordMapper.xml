@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lemon.computer.mapper.RegistrationRecordMapper">
+
+    <resultMap id="BaseResultMap" type="com.lemon.computer.domain.RegistrationRecord">
+            <id property="id" column="id" jdbcType="INTEGER"/>
+            <result property="studentId" column="student_id" jdbcType="VARCHAR"/>
+            <result property="batchId" column="batch_id" jdbcType="INTEGER"/>
+            <result property="intention" column="intention" jdbcType="VARCHAR"/>
+            <result property="introduction" column="introduction" jdbcType="VARCHAR"/>
+            <result property="status" column="status" jdbcType="TINYINT"/>
+            <result property="reviewOpinion" column="review_opinion" jdbcType="VARCHAR"/>
+            <result property="reviewTime" column="review_time" jdbcType="TIMESTAMP"/>
+            <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+            <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,student_id,batch_id,
+        intention,introduction,status,
+        review_opinion,review_time,create_time,
+        update_time
+    </sql>
+</mapper>
