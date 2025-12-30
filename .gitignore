@@ -12,7 +12,7 @@ application-dev.yaml
 .settings
 .springBeans
 .sts4-cache
-
+/node_modules
 ### IntelliJ IDEA ###
 .idea
 *.iws

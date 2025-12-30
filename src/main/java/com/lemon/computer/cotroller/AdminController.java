@@ -13,4 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 @RequiredArgsConstructor
 public class AdminController {
+    // TODO 待实现接口1:管理员后台登录;
+    // TODO 待实现接口2:获取管理员信息;
+    // TODO 待实现接口3:后台管理管理员退出登录;
 }
