@@ -28,7 +28,7 @@ CREATE TABLE `user` (
   `name` VARCHAR(50) NOT NULL COMMENT '用户姓名',
   `major` VARCHAR(100) DEFAULT '' COMMENT '所属专业，可空',
   `grade` VARCHAR(20) DEFAULT '' COMMENT '年级，如：2023级',
-  `class` VARCHAR(20) DEFAULT '' COMMENT '班级，如：计科1班',
+  `class_room` VARCHAR(20) DEFAULT '' COMMENT '班级，如：计科1班',
   `phone` VARCHAR(20) DEFAULT '' COMMENT '联系电话，11位手机号',
   `avatar` VARCHAR(255) DEFAULT NULL COMMENT '头像URL地址，默认null（使用占位头像）',
   `register_time` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '注册时间，默认当前时间',
