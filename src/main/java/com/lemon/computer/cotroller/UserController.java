@@ -23,6 +23,7 @@ import org.springframework.web.bind.annotation.*;
 public class UserController {
 
     private final UserService userService;
+
     @ApiOperationLog(description = "用户注册")
     @Operation(summary = "用户注册")
     @PostMapping("/register")
