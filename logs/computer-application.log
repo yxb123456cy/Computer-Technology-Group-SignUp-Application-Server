@@ -1,0 +1,580 @@
+2025-12-31T14:53:49.604+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] yGroupSignUpApplicationServerApplication : Starting ComputerTechnologyGroupSignUpApplicationServerApplication using Java 21.0.7 with PID 15760 (E:\001_open_code\Computer-Technology-Group-SignUp-Application-Server\target\classes started by Administrator in E:\001_open_code\Computer-Technology-Group-SignUp-Application-Server)
+2025-12-31T14:53:49.607+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] yGroupSignUpApplicationServerApplication : The following 1 profile is active: "dev"
+2025-12-31T14:53:51.034+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-31T14:53:51.036+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-31T14:53:51.068+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2025-12-31T14:53:52.069+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8088 (http)
+2025-12-31T14:53:52.085+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-31T14:53:52.086+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+2025-12-31T14:53:52.148+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-31T14:53:52.149+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2464 ms
+2025-12-31T14:53:53.373+08:00  WARN 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] o.d.x.f.s.s.FileStorageAutoConfiguration : 没有找到 FileRecorder 的实现类，文件上传之外的部分功能无法正常使用，必须实现该接口才能使用完整功能！
+2025-12-31T14:53:53.400+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] o.d.x.f.s.c.FileStorageServiceBuilder    : 加载阿里云 OSS 存储平台：aliyun-oss-1
+2025-12-31T14:53:53.804+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] m.e.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1b9ea3e3
+2025-12-31T14:53:54.066+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2025-12-31T14:53:54.080+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-12-31T14:53:54.081+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v2.5.2 created.
+2025-12-31T14:53:54.082+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2025-12-31T14:53:54.083+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.5.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-12-31T14:53:54.084+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-12-31T14:53:54.084+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.5.2
+2025-12-31T14:53:54.084+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@45a05350
+2025-12-31T14:53:54.414+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2025-12-31T14:53:54.508+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8088 (http) with context path '/'
+2025-12-31T14:53:54.509+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2025-12-31T14:53:54.510+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-12-31T14:53:54.520+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [main] yGroupSignUpApplicationServerApplication : Started ComputerTechnologyGroupSignUpApplicationServerApplication in 5.724 seconds (process running for 6.681)
+2025-12-31T14:53:55.092+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [RMI TCP Connection(1)-192.168.50.159] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-31T14:53:55.093+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [RMI TCP Connection(2)-192.168.50.159] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-31T14:53:55.093+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [RMI TCP Connection(1)-192.168.50.159] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-31T14:53:55.096+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [RMI TCP Connection(1)-192.168.50.159] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-12-31T14:53:55.652+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [RMI TCP Connection(2)-192.168.50.159] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8b73635
+2025-12-31T14:53:55.657+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [RMI TCP Connection(2)-192.168.50.159] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-31T14:54:11.522+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-12-31T14:54:11.523+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-31T14:54:11.528+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-12-31T14:54:11.544+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [SpringApplicationShutdownHook] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2025-12-31T14:54:11.545+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2025-12-31T14:54:11.545+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2025-12-31T14:54:11.545+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [SpringApplicationShutdownHook] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2025-12-31T14:54:11.545+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [SpringApplicationShutdownHook] o.d.x.f.storage.core.FileStorageService  : 销毁存储平台 aliyun-oss-1 成功
+2025-12-31T14:54:11.550+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-31T14:54:11.558+08:00  INFO 15760 --- [Computer-Technology-Group-SignUp-Application-Server] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-31T15:08:10.089+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] yGroupSignUpApplicationServerApplication : Starting ComputerTechnologyGroupSignUpApplicationServerApplication using Java 21.0.7 with PID 15096 (E:\001_open_code\Computer-Technology-Group-SignUp-Application-Server\target\classes started by Administrator in E:\001_open_code\Computer-Technology-Group-SignUp-Application-Server)
+2025-12-31T15:08:10.092+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] yGroupSignUpApplicationServerApplication : The following 1 profile is active: "dev"
+2025-12-31T15:08:11.238+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-12-31T15:08:11.241+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-12-31T15:08:11.272+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2025-12-31T15:08:12.041+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8088 (http)
+2025-12-31T15:08:12.056+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-31T15:08:12.056+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.50]
+2025-12-31T15:08:12.120+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-12-31T15:08:12.121+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1959 ms
+2025-12-31T15:08:13.050+08:00  WARN 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] o.d.x.f.s.s.FileStorageAutoConfiguration : 没有找到 FileRecorder 的实现类，文件上传之外的部分功能无法正常使用，必须实现该接口才能使用完整功能！
+2025-12-31T15:08:13.072+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] o.d.x.f.s.c.FileStorageServiceBuilder    : 加载阿里云 OSS 存储平台：aliyun-oss-1
+2025-12-31T15:08:13.390+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] m.e.s.MybatisPlusApplicationContextAware : Register ApplicationContext instances org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1a2e2935
+2025-12-31T15:08:13.598+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2025-12-31T15:08:13.609+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2025-12-31T15:08:13.610+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v2.5.2 created.
+2025-12-31T15:08:13.611+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2025-12-31T15:08:13.612+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.5.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2025-12-31T15:08:13.612+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2025-12-31T15:08:13.612+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.5.2
+2025-12-31T15:08:13.612+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] org.quartz.core.QuartzScheduler          : JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3f1d4ecf
+2025-12-31T15:08:13.906+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2025-12-31T15:08:13.986+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8088 (http) with context path '/'
+2025-12-31T15:08:13.988+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2025-12-31T15:08:13.988+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] org.quartz.core.QuartzScheduler          : Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2025-12-31T15:08:13.997+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [main] yGroupSignUpApplicationServerApplication : Started ComputerTechnologyGroupSignUpApplicationServerApplication in 4.411 seconds (process running for 4.961)
+2025-12-31T15:08:14.301+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [RMI TCP Connection(4)-192.168.50.159] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-31T15:08:14.301+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [RMI TCP Connection(4)-192.168.50.159] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-31T15:08:14.303+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [RMI TCP Connection(4)-192.168.50.159] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-12-31T15:08:14.304+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [RMI TCP Connection(3)-192.168.50.159] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-31T15:08:14.788+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [RMI TCP Connection(3)-192.168.50.159] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ea81a6f
+2025-12-31T15:08:14.797+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [RMI TCP Connection(3)-192.168.50.159] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-31T15:09:26.849+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-4] c.l.c.aspect.ApiOperationLogAspect       : ====== 请求开始: [管理员登录], 入参: {"username":"docker666?","password":"123456"}, 请求类: AdminController, 请求方法: login =================================== 
+2025-12-31T15:09:27.426+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-4] c.l.c.aspect.ApiOperationLogAspect       : ====== 请求结束: [管理员登录], 耗时: 579ms, 出参: {"success":true,"message":null,"errorCode":null,"data":"a287e8ca-d871-43de-92ad-41f015c517ff"} =================================== 
+2025-12-31T15:38:21.884+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-10] c.l.c.aspect.ApiOperationLogAspect       : ====== 请求开始: [管理员登录], 入参: {"username":"docker666?","password":"123456"}, 请求类: AdminController, 请求方法: login =================================== 
+2025-12-31T15:38:22.142+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-10] c.l.c.aspect.ApiOperationLogAspect       : ====== 请求结束: [管理员登录], 耗时: 259ms, 出参: {"success":true,"message":null,"errorCode":null,"data":"fb8d134e-7403-4b9e-900a-5aeb493b8845"} =================================== 
+2025-12-31T15:38:22.871+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-11] c.l.c.aspect.ApiOperationLogAspect       : ====== 请求开始: [管理员登录], 入参: {"username":"docker666?","password":"123456"}, 请求类: AdminController, 请求方法: login =================================== 
+2025-12-31T15:38:23.102+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-11] c.l.c.aspect.ApiOperationLogAspect       : ====== 请求结束: [管理员登录], 耗时: 231ms, 出参: {"success":true,"message":null,"errorCode":null,"data":"80369603-f917-478f-86c5-ba346610d618"} =================================== 
+2025-12-31T15:38:23.814+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-15] c.l.c.aspect.ApiOperationLogAspect       : ====== 请求开始: [管理员登录], 入参: {"username":"docker666?","password":"123456"}, 请求类: AdminController, 请求方法: login =================================== 
+2025-12-31T15:38:24.047+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-15] c.l.c.aspect.ApiOperationLogAspect       : ====== 请求结束: [管理员登录], 耗时: 233ms, 出参: {"success":true,"message":null,"errorCode":null,"data":"fc890f0c-92d2-49cf-9999-583d9e5cf82f"} =================================== 
+2025-12-31T15:38:32.441+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-16] c.l.c.aspect.ApiOperationLogAspect       : ====== 请求开始: [获取管理员信息], 入参: , 请求类: AdminController, 请求方法: getAdminInfo =================================== 
+2025-12-31T15:38:32.445+08:00 ERROR 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-16] c.l.c.handler.GlobalExceptionHandler     : /api/v1/admin/info request error, 
+
+cn.dev33.satoken.exception.NotLoginException: 未能读取到有效 token
+	at cn.dev33.satoken.exception.NotLoginException.newInstance(NotLoginException.java:134) ~[sa-token-core-1.44.0.jar:na]
+	at cn.dev33.satoken.stp.StpLogic.getLoginId(StpLogic.java:1093) ~[sa-token-core-1.44.0.jar:na]
+	at cn.dev33.satoken.stp.StpLogic.getLoginIdAsInt(StpLogic.java:1197) ~[sa-token-core-1.44.0.jar:na]
+	at cn.dev33.satoken.stp.StpUtil.getLoginIdAsInt(StpUtil.java:523) ~[sa-token-core-1.44.0.jar:na]
+	at com.lemon.computer.service.impl.AdminServiceImpl.getAdminInfo(AdminServiceImpl.java:46) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:724) ~[spring-aop-6.2.15.jar:6.2.15]
+	at com.lemon.computer.service.impl.AdminServiceImpl$$SpringCGLIB$$0.getAdminInfo(<generated>) ~[classes/:na]
+	at com.lemon.computer.cotroller.AdminController.getAdminInfo(AdminController.java:41) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-6.2.15.jar:6.2.15]
+	at com.lemon.computer.aspect.ApiOperationLogAspect.doAround(ApiOperationLogAspect.java:57) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.15.jar:6.2.15]
+	at com.lemon.computer.cotroller.AdminController$$SpringCGLIB$$0.getAdminInfo(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.50.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.50.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at cn.dev33.satoken.filter.SaFirewallCheckFilterForJakartaServlet.doFilter(SaFirewallCheckFilterForJakartaServlet.java:69) ~[sa-token-spring-boot3-starter-1.44.0.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at cn.dev33.satoken.filter.SaTokenCorsFilterForJakartaServlet.doFilter(SaTokenCorsFilterForJakartaServlet.java:52) ~[sa-token-spring-boot3-starter-1.44.0.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at cn.dev33.satoken.filter.SaTokenContextFilterForJakartaServlet.doFilter(SaTokenContextFilterForJakartaServlet.java:40) ~[sa-token-spring-boot3-starter-1.44.0.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-12-31T15:38:51.995+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-9] c.l.c.aspect.ApiOperationLogAspect       : ====== 请求开始: [获取管理员信息], 入参: , 请求类: AdminController, 请求方法: getAdminInfo =================================== 
+2025-12-31T15:38:51.996+08:00 ERROR 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-9] c.l.c.handler.GlobalExceptionHandler     : /api/v1/admin/info request error, 
+
+cn.dev33.satoken.exception.NotLoginException: 未能读取到有效 token
+	at cn.dev33.satoken.exception.NotLoginException.newInstance(NotLoginException.java:134) ~[sa-token-core-1.44.0.jar:na]
+	at cn.dev33.satoken.stp.StpLogic.getLoginId(StpLogic.java:1093) ~[sa-token-core-1.44.0.jar:na]
+	at cn.dev33.satoken.stp.StpLogic.getLoginIdAsInt(StpLogic.java:1197) ~[sa-token-core-1.44.0.jar:na]
+	at cn.dev33.satoken.stp.StpUtil.getLoginIdAsInt(StpUtil.java:523) ~[sa-token-core-1.44.0.jar:na]
+	at com.lemon.computer.service.impl.AdminServiceImpl.getAdminInfo(AdminServiceImpl.java:46) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:724) ~[spring-aop-6.2.15.jar:6.2.15]
+	at com.lemon.computer.service.impl.AdminServiceImpl$$SpringCGLIB$$0.getAdminInfo(<generated>) ~[classes/:na]
+	at com.lemon.computer.cotroller.AdminController.getAdminInfo(AdminController.java:41) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-6.2.15.jar:6.2.15]
+	at com.lemon.computer.aspect.ApiOperationLogAspect.doAround(ApiOperationLogAspect.java:57) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.15.jar:6.2.15]
+	at com.lemon.computer.cotroller.AdminController$$SpringCGLIB$$0.getAdminInfo(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.50.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.50.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at cn.dev33.satoken.filter.SaFirewallCheckFilterForJakartaServlet.doFilter(SaFirewallCheckFilterForJakartaServlet.java:69) ~[sa-token-spring-boot3-starter-1.44.0.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at cn.dev33.satoken.filter.SaTokenCorsFilterForJakartaServlet.doFilter(SaTokenCorsFilterForJakartaServlet.java:52) ~[sa-token-spring-boot3-starter-1.44.0.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at cn.dev33.satoken.filter.SaTokenContextFilterForJakartaServlet.doFilter(SaTokenContextFilterForJakartaServlet.java:40) ~[sa-token-spring-boot3-starter-1.44.0.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-12-31T15:39:24.536+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-25] c.l.c.aspect.ApiOperationLogAspect       : ====== 请求开始: [获取管理员信息], 入参: , 请求类: AdminController, 请求方法: getAdminInfo =================================== 
+2025-12-31T15:39:24.537+08:00 ERROR 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-25] c.l.c.handler.GlobalExceptionHandler     : /api/v1/admin/info request error, 
+
+cn.dev33.satoken.exception.NotLoginException: 未能读取到有效 token
+	at cn.dev33.satoken.exception.NotLoginException.newInstance(NotLoginException.java:134) ~[sa-token-core-1.44.0.jar:na]
+	at cn.dev33.satoken.stp.StpLogic.getLoginId(StpLogic.java:1093) ~[sa-token-core-1.44.0.jar:na]
+	at cn.dev33.satoken.stp.StpLogic.getLoginIdAsInt(StpLogic.java:1197) ~[sa-token-core-1.44.0.jar:na]
+	at cn.dev33.satoken.stp.StpUtil.getLoginIdAsInt(StpUtil.java:523) ~[sa-token-core-1.44.0.jar:na]
+	at com.lemon.computer.service.impl.AdminServiceImpl.getAdminInfo(AdminServiceImpl.java:46) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:724) ~[spring-aop-6.2.15.jar:6.2.15]
+	at com.lemon.computer.service.impl.AdminServiceImpl$$SpringCGLIB$$0.getAdminInfo(<generated>) ~[classes/:na]
+	at com.lemon.computer.cotroller.AdminController.getAdminInfo(AdminController.java:41) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-6.2.15.jar:6.2.15]
+	at com.lemon.computer.aspect.ApiOperationLogAspect.doAround(ApiOperationLogAspect.java:57) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.15.jar:6.2.15]
+	at com.lemon.computer.cotroller.AdminController$$SpringCGLIB$$0.getAdminInfo(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.50.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.50.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at cn.dev33.satoken.filter.SaFirewallCheckFilterForJakartaServlet.doFilter(SaFirewallCheckFilterForJakartaServlet.java:69) ~[sa-token-spring-boot3-starter-1.44.0.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at cn.dev33.satoken.filter.SaTokenCorsFilterForJakartaServlet.doFilter(SaTokenCorsFilterForJakartaServlet.java:52) ~[sa-token-spring-boot3-starter-1.44.0.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at cn.dev33.satoken.filter.SaTokenContextFilterForJakartaServlet.doFilter(SaTokenContextFilterForJakartaServlet.java:40) ~[sa-token-spring-boot3-starter-1.44.0.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-12-31T15:39:25.567+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-12] c.l.c.aspect.ApiOperationLogAspect       : ====== 请求开始: [获取管理员信息], 入参: , 请求类: AdminController, 请求方法: getAdminInfo =================================== 
+2025-12-31T15:39:25.567+08:00 ERROR 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-12] c.l.c.handler.GlobalExceptionHandler     : /api/v1/admin/info request error, 
+
+cn.dev33.satoken.exception.NotLoginException: 未能读取到有效 token
+	at cn.dev33.satoken.exception.NotLoginException.newInstance(NotLoginException.java:134) ~[sa-token-core-1.44.0.jar:na]
+	at cn.dev33.satoken.stp.StpLogic.getLoginId(StpLogic.java:1093) ~[sa-token-core-1.44.0.jar:na]
+	at cn.dev33.satoken.stp.StpLogic.getLoginIdAsInt(StpLogic.java:1197) ~[sa-token-core-1.44.0.jar:na]
+	at cn.dev33.satoken.stp.StpUtil.getLoginIdAsInt(StpUtil.java:523) ~[sa-token-core-1.44.0.jar:na]
+	at com.lemon.computer.service.impl.AdminServiceImpl.getAdminInfo(AdminServiceImpl.java:46) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:724) ~[spring-aop-6.2.15.jar:6.2.15]
+	at com.lemon.computer.service.impl.AdminServiceImpl$$SpringCGLIB$$0.getAdminInfo(<generated>) ~[classes/:na]
+	at com.lemon.computer.cotroller.AdminController.getAdminInfo(AdminController.java:41) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-6.2.15.jar:6.2.15]
+	at com.lemon.computer.aspect.ApiOperationLogAspect.doAround(ApiOperationLogAspect.java:57) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.15.jar:6.2.15]
+	at com.lemon.computer.cotroller.AdminController$$SpringCGLIB$$0.getAdminInfo(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.50.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.50.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at cn.dev33.satoken.filter.SaFirewallCheckFilterForJakartaServlet.doFilter(SaFirewallCheckFilterForJakartaServlet.java:69) ~[sa-token-spring-boot3-starter-1.44.0.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at cn.dev33.satoken.filter.SaTokenCorsFilterForJakartaServlet.doFilter(SaTokenCorsFilterForJakartaServlet.java:52) ~[sa-token-spring-boot3-starter-1.44.0.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at cn.dev33.satoken.filter.SaTokenContextFilterForJakartaServlet.doFilter(SaTokenContextFilterForJakartaServlet.java:40) ~[sa-token-spring-boot3-starter-1.44.0.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-12-31T15:39:30.924+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-14] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [Bearer fc890f0c-92d2-49cf-9999-583d9e5cf82f] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2025-12-31T15:39:30.926+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-14] c.l.c.aspect.ApiOperationLogAspect       : ====== 请求开始: [获取管理员信息], 入参: , 请求类: AdminController, 请求方法: getAdminInfo =================================== 
+2025-12-31T15:39:30.927+08:00 ERROR 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-14] c.l.c.handler.GlobalExceptionHandler     : /api/v1/admin/info request error, 
+
+cn.dev33.satoken.exception.NotLoginException: 未能读取到有效 token
+	at cn.dev33.satoken.exception.NotLoginException.newInstance(NotLoginException.java:134) ~[sa-token-core-1.44.0.jar:na]
+	at cn.dev33.satoken.stp.StpLogic.getLoginId(StpLogic.java:1093) ~[sa-token-core-1.44.0.jar:na]
+	at cn.dev33.satoken.stp.StpLogic.getLoginIdAsInt(StpLogic.java:1197) ~[sa-token-core-1.44.0.jar:na]
+	at cn.dev33.satoken.stp.StpUtil.getLoginIdAsInt(StpUtil.java:523) ~[sa-token-core-1.44.0.jar:na]
+	at com.lemon.computer.service.impl.AdminServiceImpl.getAdminInfo(AdminServiceImpl.java:46) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:724) ~[spring-aop-6.2.15.jar:6.2.15]
+	at com.lemon.computer.service.impl.AdminServiceImpl$$SpringCGLIB$$0.getAdminInfo(<generated>) ~[classes/:na]
+	at com.lemon.computer.cotroller.AdminController.getAdminInfo(AdminController.java:41) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89) ~[spring-aop-6.2.15.jar:6.2.15]
+	at com.lemon.computer.aspect.ApiOperationLogAspect.doAround(ApiOperationLogAspect.java:57) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:649) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:631) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:173) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.15.jar:6.2.15]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.15.jar:6.2.15]
+	at com.lemon.computer.cotroller.AdminController$$SpringCGLIB$$0.getAdminInfo(<generated>) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.50.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.15.jar:6.2.15]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.50.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at cn.dev33.satoken.filter.SaFirewallCheckFilterForJakartaServlet.doFilter(SaFirewallCheckFilterForJakartaServlet.java:69) ~[sa-token-spring-boot3-starter-1.44.0.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at cn.dev33.satoken.filter.SaTokenCorsFilterForJakartaServlet.doFilter(SaTokenCorsFilterForJakartaServlet.java:52) ~[sa-token-spring-boot3-starter-1.44.0.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at cn.dev33.satoken.filter.SaTokenContextFilterForJakartaServlet.doFilter(SaTokenContextFilterForJakartaServlet.java:40) ~[sa-token-spring-boot3-starter-1.44.0.jar:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.15.jar:6.2.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1774) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.50.jar:10.1.50]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-12-31T15:40:41.137+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-5] c.l.c.aspect.ApiOperationLogAspect       : ====== 请求开始: [获取管理员信息], 入参: , 请求类: AdminController, 请求方法: getAdminInfo =================================== 
+2025-12-31T15:40:41.289+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-5] c.l.c.aspect.ApiOperationLogAspect       : ====== 请求结束: [获取管理员信息], 耗时: 152ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":1,"username":"docker666?","password":null,"updateTime":[2025,12,31,15,6,38]}} =================================== 
+2025-12-31T15:40:44.945+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-33] c.l.c.aspect.ApiOperationLogAspect       : ====== 请求开始: [获取管理员信息], 入参: , 请求类: AdminController, 请求方法: getAdminInfo =================================== 
+2025-12-31T15:40:45.044+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-33] c.l.c.aspect.ApiOperationLogAspect       : ====== 请求结束: [获取管理员信息], 耗时: 99ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":1,"username":"docker666?","password":null,"updateTime":[2025,12,31,15,6,38]}} =================================== 
+2025-12-31T15:41:39.583+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-35] c.l.c.aspect.ApiOperationLogAspect       : ====== 请求开始: [管理员登录], 入参: {"username":"docker666?","password":"123456"}, 请求类: AdminController, 请求方法: login =================================== 
+2025-12-31T15:41:40.816+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-35] c.l.c.aspect.ApiOperationLogAspect       : ====== 请求结束: [管理员登录], 耗时: 1233ms, 出参: {"success":true,"message":null,"errorCode":null,"data":"f2629b05-e2e9-438d-b837-986521ab8c89"} =================================== 
+2025-12-31T15:41:42.543+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-22] c.l.c.aspect.ApiOperationLogAspect       : ====== 请求开始: [获取管理员信息], 入参: , 请求类: AdminController, 请求方法: getAdminInfo =================================== 
+2025-12-31T15:41:44.735+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-22] c.l.c.aspect.ApiOperationLogAspect       : ====== 请求结束: [获取管理员信息], 耗时: 2192ms, 出参: {"success":true,"message":null,"errorCode":null,"data":{"id":1,"username":"docker666?","password":null,"updateTime":[2025,12,31,15,6,38]}} =================================== 
+2025-12-31T15:41:57.107+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-2] c.l.c.aspect.ApiOperationLogAspect       : ====== 请求开始: [管理员退出登录], 入参: , 请求类: AdminController, 请求方法: logout =================================== 
+2025-12-31T15:41:59.416+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-2] c.l.c.aspect.ApiOperationLogAspect       : ====== 请求结束: [管理员退出登录], 耗时: 2309ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 
+2025-12-31T15:42:01.295+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-43] c.l.c.aspect.ApiOperationLogAspect       : ====== 请求开始: [管理员退出登录], 入参: , 请求类: AdminController, 请求方法: logout =================================== 
+2025-12-31T15:42:01.322+08:00  INFO 15096 --- [Computer-Technology-Group-SignUp-Application-Server] [http-nio-8088-exec-43] c.l.c.aspect.ApiOperationLogAspect       : ====== 请求结束: [管理员退出登录], 耗时: 27ms, 出参: {"success":true,"message":null,"errorCode":null,"data":null} =================================== 

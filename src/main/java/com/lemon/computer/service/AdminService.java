@@ -10,4 +10,22 @@ import com.baomidou.mybatisplus.extension.service.IService;
 */
 public interface AdminService extends IService<Admin> {
 
+    /**
+     * 管理员登录
+     * @param username 用户名
+     * @param password 密码
+     * @return 登录token
+     */
+    String login(String username, String password);
+
+    /**
+     * 获取管理员信息
+     * @return 管理员信息
+     */
+    Admin getAdminInfo();
+
+    /**
+     * 退出登录
+     */
+    void logout();
 }
